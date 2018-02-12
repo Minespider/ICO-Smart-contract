@@ -32,6 +32,11 @@ contract Token {
         return _symbol;
     }
 
+    function symbols()
+        public
+        view
+    }
+
     function decimals()
         public
         view
